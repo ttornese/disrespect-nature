@@ -2,6 +2,11 @@ body {
   background-color: #d3d3d3;
 }
 
+.navbar {
+  margin-bottom: 0px;
+  border 0px;
+}
+
 .jumbotron h1 {
   text-align: center;
 }
@@ -11,26 +16,12 @@ body {
   background-color: #e4e4e4;
 }
 
-.culprit-title {
-  text-align: center;
-  border-bottom: 1px solid #939393;
-}
-
-.navbar {
-  margin-bottom: 0px;
-  border 0px;
-}
-
-.aotn {
+.news .row {
   background-color: #e4e4e4;
 }
 
 .aotn h1 {
   border-bottom: 1px solid #939393;
-}
-
-.ua {
-  background-color: #e4e4e4;
 }
 
 .ua h1 {
@@ -41,8 +32,18 @@ body {
   background-color: #e4e4e4;
 }
 
-.culp-cont {
+.culprit-content {
   margin-top: 2px;
+}
+
+.culprit-title {
+  text-align: center;
+  border-bottom: 1px solid #939393;
+}
+
+div.culprit-video {
+  display: table;
+  margin: 0 auto;
 }
 
 .copyright {
